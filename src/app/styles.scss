@@ -1,0 +1,7 @@
+// Saas styles for Carbon Design System
+@use '@carbon/react/scss/components/tabs';
+
+
+// DO NOT USE because this contains a weird reset that breaks Tailwind (font sizes do not apply to Tile component)
+// but if not present this break the Snippet component (fonts not loading)
+//@use '@carbon/react';
